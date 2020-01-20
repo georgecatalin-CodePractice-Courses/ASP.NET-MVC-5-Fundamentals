@@ -10,5 +10,12 @@
 
         <p class="lead">There are @Model.Count() restaurants in the application. (with model directive declaration)</p>
 
+        <ul>
+            @foreach (var item in Model)
+            {
+                <li>@item.Name</li>
+            }
+        </ul>
+
     </div>
 
