@@ -1,0 +1,14 @@
+﻿@model IEnumerable<OdeToFood.Data.Models.Restaurant>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+    <div class="jumbotron">
+        <h1>ASP.NET</h1>
+
+        <p class="lead">There are @Enumerable.Count(Model) restaurants in the application. (with Enumerable.Count(Model)</p>
+
+        <p class="lead">There are @Model.Count() restaurants in the application. (with model directive declaration)</p>
+
+    </div>
+
