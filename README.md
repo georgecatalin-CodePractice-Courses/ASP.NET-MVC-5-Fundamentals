@@ -1,8 +1,5 @@
-# CSharp-Course-ASP.NET-MVC-5-Fundamentals
-Code practice associated with the course "ASP.NET MVC 5 Fundamentals" on Pluralsight
-
 # ASP.NET MVC 5 Fundamentals
-* by Scott Allen
+> by Scott Allen
 
 ## Course Overview 1m 3s
 
