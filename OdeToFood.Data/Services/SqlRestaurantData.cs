@@ -38,8 +38,12 @@ namespace OdeToFood.Data.Services
 
         public void Update(Restaurant restaurant)
         {
-            var r = Get(restaurant.Id);
-            r.Name = "modified name";
+            //var r = Get(restaurant.Id);
+            //r.Name = "modified name";
+            //db.SaveChanges();
+
+            var entry = db.Entry(restaurant);
+            entry.State = System.Data.Entity.EntityState.Modified;
             db.SaveChanges();
         }
     }
