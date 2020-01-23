@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace OdeToFood.Data.Services
 {
-    class OdeToFoodDBContext : DbContext
+    public class OdeToFoodDBContext : DbContext
     {
         public DbSet<Restaurant> Restaurants { get; set; }
     }

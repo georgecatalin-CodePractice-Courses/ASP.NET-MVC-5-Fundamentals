@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace OdeToFood.Data.Services
 {
-    class SqlRestaurantData : IRestaurantData
+    public class SqlRestaurantData : IRestaurantData
 
     {
         private readonly OdeToFoodDBContext db;
